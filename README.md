@@ -72,7 +72,7 @@ function getAllUsers(): User[] {
   return users;
 }
 ```
-### get user property###
+### get user property ###
 ```bash
 // Assuming you have a user with id '34' and want to retrieve its 'property3'
 function getUserProperty(userId: string, propertyKey: string): any | undefined {
