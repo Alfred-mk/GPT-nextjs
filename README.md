@@ -36,7 +36,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 - Finally I would have a function to delete a Smartsheet
 
 3. Define example user schema for clients that may be interested in Precision services
-
+```bash
 interface User {
   id: string;
   firstName: string;
@@ -57,6 +57,7 @@ interface Address {
   postalCode: string;
   country: string;
 }
+```
 
 ### get user ###
 ```bash
